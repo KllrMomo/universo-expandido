@@ -1,0 +1,86 @@
+.hero {
+  text-align: center;
+  padding: 100px 24px;
+  background: #faf7f4;
+}
+
+.hero h1 {
+  font-family: "Georgia", serif;
+  font-size: 2.5rem;
+  color: #b5623f;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 28px;
+}
+
+.hero__cta {
+  background: #b5623f;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.hero__cta:hover {
+  background: #9a4f31;
+}
+
+.works {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 32px;
+  text-align: center;
+}
+
+.works h2 {
+  font-family: "Georgia", serif;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.works__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.works__card {
+  background: #f2ede8;
+  padding: 60px 20px;
+  border-radius: 6px;
+  color: #777;
+}
+
+.about {
+  background: #faf7f4;
+  padding: 80px 32px;
+  text-align: center;
+}
+
+.about h2 {
+  font-family: "Georgia", serif;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.about p {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #555;
+  line-height: 1.6;
+}
+
+.footer {
+  text-align: center;
+  padding: 24px;
+  color: #999;
+  font-size: 0.85rem;
+  border-top: 1px solid #eee;
+}

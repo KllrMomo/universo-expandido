@@ -1,0 +1,61 @@
+.header {
+  background: #fff;
+  border-bottom: 1px solid #A0553D;
+}
+
+.header__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 22px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-size: 1.25rem;
+  color: #b5623f;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+}
+
+.header__nav {
+  display: flex;
+  gap: 32px;
+}
+
+.header__nav a {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header__nav a:hover {
+  color: #b5623f;
+}
+
+.header__socials {
+  display: flex;
+  gap: 18px;
+}
+
+.header__socials a {
+  color: #b5623f;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .header__inner {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .header__nav {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+  }
+}

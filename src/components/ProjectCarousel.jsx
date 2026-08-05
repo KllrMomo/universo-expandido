@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import ProjectCard from './ProjectCard';
-import '../styles/project-carousel';
+import '../styles/project-carousel.css';
 
 const PEEK = 80; // px de la card parcial visible a la izquierda
 
